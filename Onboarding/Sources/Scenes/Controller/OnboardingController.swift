@@ -5,7 +5,6 @@
 //  Created by Виталий Таран on 22.06.2022.
 //
 
-
 import UIKit
 
 class OnboardingController: UIViewController {
@@ -27,8 +26,18 @@ class OnboardingController: UIViewController {
         view = OnboardingView()
         
         model = OnboardingModel()
-
-
+        configureView()
+    }
 }
 
+// MARK: - Configurations
+private extension OnboardingController {
+    func configureView() {
+        guard let models = model?.createModels() else { return }
+        models.forEach { [unowned self] model in
+            onboardingView?.configureView(with: [model])
+        }
+        onboardingView?.configureView(with: models)
+    }
 }
+
