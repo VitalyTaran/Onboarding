@@ -17,6 +17,7 @@
 		2394DED928636ADD007DFE1D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2394DED828636ADD007DFE1D /* OnboardingView.swift */; };
 		2394DEDC28636F3D007DFE1D /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2394DEDB28636F3D007DFE1D /* UIImage+Ext.swift */; };
 		2394DEDF286370E0007DFE1D /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2394DEDE286370E0007DFE1D /* Onboarding.swift */; };
+		2394DEE928637E4F007DFE1D /* OnboardingContentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2394DEE828637E4F007DFE1D /* OnboardingContentViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2394DED828636ADD007DFE1D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		2394DEDB28636F3D007DFE1D /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
 		2394DEDE286370E0007DFE1D /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		2394DEE828637E4F007DFE1D /* OnboardingContentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				2394DED828636ADD007DFE1D /* OnboardingView.swift */,
+				2394DEE828637E4F007DFE1D /* OnboardingContentViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				2394DED728636AB8007DFE1D /* OnboardingModel.swift in Sources */,
 				2394DEC02863676E007DFE1D /* OnboardingController.swift in Sources */,
 				2394DEBC2863676E007DFE1D /* AppDelegate.swift in Sources */,
+				2394DEE928637E4F007DFE1D /* OnboardingContentViewCell.swift in Sources */,
 				2394DEDF286370E0007DFE1D /* Onboarding.swift in Sources */,
 				2394DEDC28636F3D007DFE1D /* UIImage+Ext.swift in Sources */,
 				2394DED928636ADD007DFE1D /* OnboardingView.swift in Sources */,
