@@ -18,9 +18,9 @@
 		2394DEDC28636F3D007DFE1D /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2394DEDB28636F3D007DFE1D /* UIImage+Ext.swift */; };
 		2394DEDF286370E0007DFE1D /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2394DEDE286370E0007DFE1D /* Onboarding.swift */; };
 		2394DEE928637E4F007DFE1D /* OnboardingContentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2394DEE828637E4F007DFE1D /* OnboardingContentViewCell.swift */; };
-		2394DEED286388A5007DFE1D /* questions-chat.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2394DEEA286388A5007DFE1D /* questions-chat.gif */; };
-		2394DEEE286388A5007DFE1D /* interview-animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2394DEEB286388A5007DFE1D /* interview-animation.gif */; };
-		2394DEEF286388A5007DFE1D /* code-time.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2394DEEC286388A5007DFE1D /* code-time.gif */; };
+		2394DEED286388A5007DFE1D /* 19008-questions-chat.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2394DEEA286388A5007DFE1D /* 19008-questions-chat.gif */; };
+		2394DEEE286388A5007DFE1D /* 70404-interview-animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2394DEEB286388A5007DFE1D /* 70404-interview-animation.gif */; };
+		2394DEEF286388A5007DFE1D /* 67011-code-time.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2394DEEC286388A5007DFE1D /* 67011-code-time.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +37,9 @@
 		2394DEDB28636F3D007DFE1D /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
 		2394DEDE286370E0007DFE1D /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		2394DEE828637E4F007DFE1D /* OnboardingContentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentViewCell.swift; sourceTree = "<group>"; };
-		2394DEEA286388A5007DFE1D /* questions-chat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "questions-chat.gif"; sourceTree = "<group>"; };
-		2394DEEB286388A5007DFE1D /* interview-animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "interview-animation.gif"; sourceTree = "<group>"; };
-		2394DEEC286388A5007DFE1D /* code-time.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "code-time.gif"; sourceTree = "<group>"; };
+		2394DEEA286388A5007DFE1D /* 19008-questions-chat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "19008-questions-chat.gif"; sourceTree = "<group>"; };
+		2394DEEB286388A5007DFE1D /* 70404-interview-animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "70404-interview-animation.gif"; sourceTree = "<group>"; };
+		2394DEEC286388A5007DFE1D /* 67011-code-time.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "67011-code-time.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,9 +156,9 @@
 		2394DEDD28636FB2007DFE1D /* Gifs */ = {
 			isa = PBXGroup;
 			children = (
-				2394DEEA286388A5007DFE1D /* questions-chat.gif */,
-				2394DEEC286388A5007DFE1D /* code-time.gif */,
-				2394DEEB286388A5007DFE1D /* interview-animation.gif */,
+				2394DEEA286388A5007DFE1D /* 19008-questions-chat.gif */,
+				2394DEEC286388A5007DFE1D /* 67011-code-time.gif */,
+				2394DEEB286388A5007DFE1D /* 70404-interview-animation.gif */,
 			);
 			path = Gifs;
 			sourceTree = "<group>";
@@ -221,12 +221,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2394DEEE286388A5007DFE1D /* interview-animation.gif in Resources */,
+				2394DEEE286388A5007DFE1D /* 70404-interview-animation.gif in Resources */,
 				2394DEC82863676F007DFE1D /* LaunchScreen.storyboard in Resources */,
-				2394DEEF286388A5007DFE1D /* code-time.gif in Resources */,
+				2394DEEF286388A5007DFE1D /* 67011-code-time.gif in Resources */,
 				2394DEC52863676F007DFE1D /* Assets.xcassets in Resources */,
 				2394DEC32863676E007DFE1D /* Main.storyboard in Resources */,
-				2394DEED286388A5007DFE1D /* questions-chat.gif in Resources */,
+				2394DEED286388A5007DFE1D /* 19008-questions-chat.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
