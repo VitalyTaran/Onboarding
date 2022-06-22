@@ -4,7 +4,6 @@
 //
 //  Created by Виталий Таран on 22.06.2022.
 //
-
 import UIKit
 
 final class OnboardingContentViewCell: UICollectionViewCell {
@@ -12,6 +11,7 @@ final class OnboardingContentViewCell: UICollectionViewCell {
     static let identifier = "OnboardingContentViewCell"
 
     // MARK: - Configuration
+
     func configureView(with model: Onboarding) {
         titleLabel.text = model.title
         imageView.image = UIImage.gifImageWithName(model.imageName)
@@ -19,6 +19,7 @@ final class OnboardingContentViewCell: UICollectionViewCell {
     }
 
     // MARK: - Views
+
     private lazy var stackView: UIStackView = {
         let view = UIStackView()
         view.axis = .vertical
@@ -54,6 +55,7 @@ final class OnboardingContentViewCell: UICollectionViewCell {
     }()
 
     // MARK: - Initial
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
@@ -71,6 +73,7 @@ final class OnboardingContentViewCell: UICollectionViewCell {
     }
 
     // MARK: - Settings
+
     private func setupHierarchy() {
         addSubview(stackView)
         stackView.addArrangedSubview(imageView)
