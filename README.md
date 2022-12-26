@@ -1,7 +1,11 @@
 # Onboarding
 Onboarding View for iOS school
-Specification
+
+Specification:
+
 Xcode 12+
+
 MVC
+
 UIKit
 
